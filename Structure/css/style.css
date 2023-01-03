@@ -7,3 +7,17 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 628px) {
+   .name{
+    display:flex;
+    align-items: center;
+    justify-items: flex-end;
+   }
+    .avatar{
+    height: -10%;
+    width: -10%;
+   } 
+}
